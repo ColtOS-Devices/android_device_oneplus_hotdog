@@ -42,4 +42,7 @@ PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
 COLT_BUILD_TYPE := OFFICIAL
 
-COLT_MAINTAINER := mady51
+# Device maintainer and CPU Information
+  PRODUCT_PROPERTY_OVERRIDES += \
+    ro.colt.maintainer=Mady51 \
+    ro.colt.cpu=SM8150
