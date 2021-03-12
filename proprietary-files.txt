@@ -402,6 +402,11 @@ vendor/bin/thermal-engine
 # Time services
 vendor/bin/time_daemon
 
+# Vibrator firmware
+vendor/firmware/notif_Ardour.bin
+vendor/firmware/notif_Chic.bin
+vendor/firmware/ring_McLarn.bin
+
 # WiFi
 vendor/bin/cnss-daemon
 vendor/lib/libwigig_flashaccess.so
